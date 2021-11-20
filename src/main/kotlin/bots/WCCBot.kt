@@ -1,6 +1,5 @@
 package bots
 
-import bots.Constant.TOKEN_BOT
 import com.vdurmont.emoji.EmojiParser
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
@@ -61,7 +60,7 @@ class WCCBot : TelegramLongPollingBot() {
     override fun getBotToken(): String {
         // Return bot token from BotFather
 
-        return TOKEN_BOT
+        return "2116819525:AAGPeROlqoZWYMEk5amOAEGlVsB-EtjFiUk"
     }
 
     override fun onUpdateReceived(update: Update?) {
