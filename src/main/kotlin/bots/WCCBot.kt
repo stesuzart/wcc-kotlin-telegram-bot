@@ -1,6 +1,6 @@
 package bots
 
-import bots.Constant.TOKEN_BOT
+import util.Constant.TOKEN_BOT
 import com.vdurmont.emoji.EmojiParser
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
